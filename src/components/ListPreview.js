@@ -6,12 +6,12 @@ export const ListPreview = ({ colorsToDisplay, removeItem }) => {
 	return (
 		<ul role="list" className="divide-y  color-ul">
 			{colorsToDisplay.map((color, i) => (
-				<li key={i} className="list-item">
+				<li key={i} className="list-item-palette">
 					<span
 						className="rounded-div"
 						style={{ background: color.hexCode }}></span>
 					<span className="sub-text color-name">{color.name}</span>
-					<span className="list-item commands">
+					<span className="list-item-palette commands">
 						<img
 							onClick={() => removeItem(color.id)}
 							src={Remove}

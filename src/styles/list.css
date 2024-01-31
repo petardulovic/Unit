@@ -1,4 +1,4 @@
-.list-item {
+.list-item-palette {
 	@apply flex gap-2 mx-2 bg-[#e7cfb4] border border-[#442727] text-black p-2 rounded items-center;
 
 	&.commands {
