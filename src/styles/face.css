@@ -1,0 +1,79 @@
+.face {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border: 2px solid #000;
+	border-radius: 50%;
+	background-color: #ffe0bd; /* Skin color */
+}
+
+.eye {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-color: #000; /* Eye color */
+	border-radius: 50%;
+	top: 30%;
+	left: 30%;
+}
+
+.mouth {
+	position: absolute;
+	width: 100px;
+	height: 40px;
+	background-color: #ff7f50; /* Mouth color */
+	border-radius: 0 0 50% 50%;
+	top: 60%;
+	left: 50%;
+	margin-left: -50px;
+}
+
+.nose {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #000; /* Nose color */
+	border-radius: 50%;
+	top: 48%;
+	left: 54%;
+	margin-left: -10px;
+}
+
+.ear {
+	position: absolute;
+	width: 60px;
+	height: 80px;
+	background-color: #ffe0bd; /* Skin color */
+	border: 2px solid #000;
+	border-radius: 50%;
+}
+
+.ear-left {
+	top: 20%;
+	left: -10%;
+}
+
+.ear-right {
+	top: 20%;
+	left: 50%;
+	margin-left: -50px;
+}
+
+.eyebrow {
+	position: absolute;
+	width: 40px;
+	height: 8px;
+	background-color: #000; /* Eyebrow color */
+}
+
+.eyebrow-left {
+	top: 22%;
+	left: 28%;
+	transform: rotate(-20deg);
+}
+
+.eyebrow-right {
+	top: 22%;
+	left: 58%;
+	transform: rotate(20deg);
+}

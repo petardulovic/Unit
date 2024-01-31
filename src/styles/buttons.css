@@ -1,0 +1,19 @@
+.btn-dark {
+	@apply bg-[#ffc18c] hover:bg-[#e7cfb4] w-48 text-[#6e4040] py-2 px-4 border border-[#a87474] hover:border-transparent rounded font-semibold;
+}
+
+.btn-light {
+	@apply bg-[#e7cfb4] hover:bg-[#ffc18c] text-[#6e4040] py-2 px-4 border border-[#a87474] hover:border-transparent rounded font-semibold;
+
+	&.use-it {
+		@apply float-right ml-auto;
+	}
+
+	&.sm {
+		@apply py-1 px-2;
+	}
+
+	&.add-to-palette {
+		@apply float-right ml-auto;
+	}
+}

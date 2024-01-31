@@ -1,0 +1,11 @@
+.list-item {
+	@apply flex gap-2 mx-2 bg-[#e7cfb4] border border-[#442727] text-black p-2 rounded items-center;
+
+	&.commands {
+		@apply float-right ml-auto border-0;
+	}
+}
+
+.color-ul {
+	@apply flex flex-col overflow-y-auto h-2/3 mt-2;
+}

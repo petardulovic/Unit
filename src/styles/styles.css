@@ -1,0 +1,30 @@
+.h2-main {
+	@apply text-2xl font-bold dark:text-white mb-2;
+}
+.rounded-div {
+	@apply w-6 h-6 rounded-full;
+
+	&.lg {
+		@apply w-12 h-12 rounded-full text-ellipsis whitespace-nowrap overflow-hidden ml-[50%] transform -translate-x-1/2;
+	}
+}
+
+.error-text {
+	@apply text-red-500;
+}
+
+.search-bar-with-image {
+	@apply w-28 inline;
+}
+
+.search-bar-image {
+	@apply w-4 h-4;
+}
+
+.sub-text {
+	@apply truncate;
+
+	&.color-name {
+		@apply max-w-[50%];
+	}
+}

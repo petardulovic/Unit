@@ -1,0 +1,11 @@
+.input-name {
+	@apply border border-gray-400 focus:border-[#ffc18c] text-gray-600 outline-none w-32 rounded;
+
+	&.color-naming {
+		@apply ml-2;
+	}
+}
+
+.error-name-input {
+	@apply border border-red-500 text-red-500 outline-none w-full rounded;
+}
